@@ -1,4 +1,4 @@
-embed-server --server-config=standalone.xml --remove-existing
+embed-server --server-config=standalone.xml
 /system-property=keycloak.migration.action/:add(value=export)
 /system-property=keycloak.migration.provider/:add(value=dir)
 /system-property=keycloak.migration.dir/:add(value=keycloak_export_dir)
